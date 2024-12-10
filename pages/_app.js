@@ -11,7 +11,7 @@ import {
 import Header from "@/components/Header";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAuB_-EBXaIBrupy1iaWz3qu_WjaV7GYus",
+  apiKey: `${process.env.API_KEY}`,
   authDomain: "exercise-six-e889c.firebaseapp.com",
   projectId: "exercise-six-e889c",
   storageBucket: "exercise-six-e889c.firebasestorage.app",
