@@ -5,3 +5,20 @@
 .formWrapper{
     display: block;
 }
+
+.formWrapper input {
+    display: flex;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+.formWrapper button {
+    background-color: rgb(182, 226, 177);
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+  
